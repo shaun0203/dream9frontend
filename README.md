@@ -1,33 +1,27 @@
-# Dream Analyzer Frontend
+# Dream9 Frontend
 
-Flutter application for dream analysis using BLoC pattern
+Flutter application for dream analysis using AI
+
+## Features
+- Text-based dream input
+- Voice-to-text dream input
+- AI-powered dream analysis
+- Clean BLoC architecture
 
 ## Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/shaun0203/dream9frontend.git
-cd dream9frontend
+1. Clone repository
+2. Create `.env` file:
+```env
+API_BASE_URL=https://your-backend-url.com
 ```
-
-2. Install dependencies:
+3. Install dependencies:
 ```bash
 flutter pub get
 ```
-
-3. Run the application:
+4. Run app:
 ```bash
 flutter run
 ```
 
-## Features
-
-- Text input for dream descriptions
-- Voice-to-text conversion
-- Dream analysis display
-- BLoC state management
-
-## Requirements
-
-- Flutter SDK (latest stable version)
-- Running backend service at `http://localhost:8000`
+## CI Status
+[![Flutter CI](https://github.com/shaun0203/dream9frontend/actions/workflows/flutter.yml/badge.svg)](https://github.com/shaun0203/dream9frontend/actions/workflows/flutter.yml)

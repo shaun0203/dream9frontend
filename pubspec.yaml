@@ -1,18 +1,25 @@
 name: dream9frontend
-description: Flutter frontend for dream analysis app
+description: Flutter frontend for Dream Analysis Application
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.3
-  http: ^1.1.0
-  flutter_tts: ^3.8.0
   equatable: ^2.0.5
+  http: ^1.2.0
+  speech_to_text: ^7.0.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.1.4
+  mockito: ^5.4.0
 
 flutter:
   uses-material-design: true
